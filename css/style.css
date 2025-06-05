@@ -1,0 +1,51 @@
+:root{
+    --dark-font:#000;
+    --shadow-color:#132afbdf;
+    --border-color:#4b73f4;
+    --light-font:#fff;
+    --bg-colors:#0019fbeb;
+}
+body{
+    /* background-color: rgb(244, 230, 212); */
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    height: 100vh;
+}
+
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    color: var(--dark-font);
+    text-shadow: 4px 3px var(--shadow-color);
+    letter-spacing: 2px;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-shadow: 4px 3px gainsboro ;
+}
+
+button{
+    padding-inline: 80px;
+    padding-block: 20px;
+    background-color: var(--bg-colors) ;
+    border: 3px solid var(--border-color);
+    color: var(--light-font);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+button:hover{
+        background-color: green ;
+            border: 3px solid lightgreen;
+
+
+}
+.blockquote-footer::before
+ {
+    content: "";
+}
+

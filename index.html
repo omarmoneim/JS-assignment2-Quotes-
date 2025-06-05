@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Document</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div
+      class="quote text-center d-flex justify-content-center align-items-center flex-column m-5  "
+      
+    >
+    <div
+      class=" text-center d-flex justify-content-center align-items-center flex-column shadow-lg p-2"
+    >
+
+   
+        <h1 class="m-5 border-bottom border-4 border-black border-opacity-75 p-2">
+        Quote of the Day
+      </h1>
+      <p class="m-0 p-0">Press the button below to recieve a random quote!</p>
+      <i class="fa-solid fa-arrow-down h-50 fw-bold fs-4 mb-3"></i>
+
+      <button type="button" class="mb-3" id="qbutton" onclick="myQuote()">
+        New Quote
+      </button>
+
+      <figure class="text-center  pb-3" id="our-quote">
+        <blockquote class="blockquote">
+          <p id="quotes"></p>
+        </blockquote>
+
+        <figcaption
+          class="blockquote-footer text-secondary-emphasis fs-2"
+          id="quote-author"
+        ></figcaption>
+      </figure>
+
+    </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
